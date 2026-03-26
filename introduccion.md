@@ -91,4 +91,7 @@ realizaron dichas modificaciones y por quien.
 -Flujo principal de eventos:
       1) Ingreso al sistema:
       2) Pulsa el botón para que se visualice la agenda completa.
-      3) 
+      3) Pulsa el botón para que aparezca el historial de turnos.
+      4) Se filtra entre si se quiere visualizar todos los cambios que hubieron en las últimas 24 horas, en toda la semana, en todo el mes
+      o en general.
+      5) Aparecerá el historial a continuación.
