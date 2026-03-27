@@ -1,3 +1,13 @@
+El paradigma orientado a objetos tiene que ver con visualizar un programa como una serie de objetos que interactuan y tienen relación entre sí, de aquí salen las bases para entender cómo funcionaría cada parte del sistema para luego trasladarlo a código. Es importante ya que sirve para entender mucho mejor cómo funcionaría un sistema complejo dividiendolo en objetos y partes más sencillas y pequeñas.
+
+Los cuatro fundamentos de POO son:
+++Herencia: Las clases secundarias heredan datos y comportamientos de la clase principal, tal como la clase Cambios hereda datos y comportamientos de la clase Turno (ya que guarda los datos que se modifican ahí)
+++Encapsulación: Contiene información de un objeto, exponiendo solo la información seleccionada, tal como funciona la clase Agenda, ya que expone solo la información de los turnos del doctor o profesional seleccionado.
+++Abstracción: Define clases simplificando la realidad, ignorando detalles innecesarios y enfocándose en lo que es importante para el programa en particular, esto sucede simplificando todas las clases, como la clase turnos y la clase secretaria, pero es fundamental entender lo importante.
+++Polimorfismo: Muchos métodos pueden realizar la misma tarea, esencialmente, los métodos ReservaHorario() y GuardarCambios() de las clases Turno y Agenda hacen lo mismo.
+
+-------------------------------------
+
 Requisitos funcionales.
 1) El sistema debe permitir crear, reprogramar y cancelar turnos de manera digital.
 2) Debe de tener una agenda con visualizacion clara y facil de entender de los turnos por dia y semana (se podría asignar un color
