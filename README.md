@@ -2,7 +2,7 @@
 
 + Materia: Diseño Orientado a Objetos
 + Carrera: Tec. en Programación de Sistemas
-+ Grupo: Grupo Nº7
++ Grupo Nº7
 
 ## Introducción
 
@@ -15,11 +15,12 @@ también que el sistema sea lo más simple y fácil de entender posible.
 
 ## Integrantes:
 
-| Nombre y Apellido | Matrícula | Usuario de GitHub |
-| :---- | :----: | ----: |
-| Mateo Mesa Aramburu | - | @MateoAramburu16 |
-| Juan Sebastián Eliseo Benitez | - | @Sebas-Benitez |
-| Milenka Vila | 157550 | @eternalnight04 |
+| Nombre y Apellido | Rol Asignado | Matrícula | Usuario de GitHub |
+| :---- | :----: | :----: | ----: |
+| Mateo Mesa Aramburu | Analista de Requerimientos | - | [@MateoAramburu16](https://github.com/MateoAramburu16) |
+| Juan Sebastián Eliseo Benitez | Diseñador de Clases Iniciales | - | [@Sebas-Benitez](https://github.com/Sebas-Benitez) |
+| Milenka Vila | Modelador de Casos de Uso | 157550 | [@eternalnight04](https://github.com/eternalnight04) |
+| Milenka Vila | Documentador y Coordinador | 157550 | [@eternalnight04](https://github.com/eternalnight04) |
 
 
 ## Diagramas y Diseños
