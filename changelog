@@ -13,12 +13,18 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 - [feature/] Modelo de Clases.  
   PR: [#](link) - @Sebas-Benitez (Diseñador de Clases Iniciales)
 
+- [feature/analista-requerimientos] Análisis de requerimientos.
+  PR: [#3](https://github.com/eternalnight04/SistemaTurnosMedicos1/pull/3) - @MateoAramburu16 (Analista de Requerimientos)
+
 ### Changed
 - [eternalnight04-patch-3] Introducción con descripción básica del programa.
   PR: [#2](https://github.com/eternalnight04/SistemaTurnosMedicos1/pull/2) - @eternalnight04 (Modelador de Casos de Uso)
 
 - [eternalnight04-patch-3] Actualización README.md.
   PR: [#2](https://github.com/eternalnight04/SistemaTurnosMedicos1/pull/2) - @eternalnight04 (Modelador de Casos de Uso)
+
+- [feature/doc-coord-repo-update-readme-md-1] Actualización README.md
+  PR: [#4](https://github.com/eternalnight04/SistemaTurnosMedicos1/pull/5) - @eternalnight04 (Modelador de Casos de Uso y Documentador y Coordinador de Repositorio)
 
 ### Fixed
 - [feature/fix-rutas] Corrección de rutas en README.md.  
