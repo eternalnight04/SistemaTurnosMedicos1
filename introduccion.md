@@ -1,56 +1,31 @@
+# Anexo - Introducción al Diseño Orientado a Objetos
+
 El paradigma orientado a objetos tiene que ver con visualizar un programa como una serie de objetos que interactuan y tienen relación entre sí, de aquí salen las bases para entender cómo funcionaría cada parte del sistema para luego trasladarlo a código. Es importante ya que sirve para entender mucho mejor cómo funcionaría un sistema complejo dividiendolo en objetos y partes más sencillas y pequeñas.
 
+## Los cuatro fundamentos de POO
 
-Los cuatro fundamentos de POO son:
+-Herencia: Las clases secundarias heredan datos y comportamientos de la clase principal, tal como la clase Cambios hereda datos y comportamientos de la clase Turno (ya que guarda los datos que se modifican ahí)
 
-++Herencia: Las clases secundarias heredan datos y comportamientos de la clase principal, tal como la clase Cambios hereda datos y comportamientos de la clase Turno (ya que guarda los datos que se modifican ahí)
+-Encapsulación: Contiene información de un objeto, exponiendo solo la información seleccionada, tal como funciona la clase Agenda, ya que expone solo la información de los turnos del doctor o profesional seleccionado.
 
-++Encapsulación: Contiene información de un objeto, exponiendo solo la información seleccionada, tal como funciona la clase Agenda, ya que expone solo la información de los turnos del doctor o profesional seleccionado.
+-Abstracción: Define clases simplificando la realidad, ignorando detalles innecesarios y enfocándose en lo que es importante para el programa en particular, esto sucede simplificando todas las clases, como la clase turnos y la clase secretaria, pero es fundamental entender lo importante.
 
-++Abstracción: Define clases simplificando la realidad, ignorando detalles innecesarios y enfocándose en lo que es importante para el programa en particular, esto sucede simplificando todas las clases, como la clase turnos y la clase secretaria, pero es fundamental entender lo importante.
-
-++Polimorfismo: Muchos métodos pueden realizar la misma tarea, esencialmente, los métodos ReservaHorario() y GuardarCambios() de las clases Turno y Agenda hacen lo mismo.
+-Polimorfismo: Muchos métodos pueden realizar la misma tarea, esencialmente, los métodos ReservaHorario() y GuardarCambios() de las clases Turno y Agenda hacen lo mismo.
 
 -------------------------------------
 
-Requisitos funcionales.
-
-1) El sistema debe permitir crear, reprogramar y cancelar turnos de manera digital.
-
-2) Debe de tener una agenda con visualizacion clara y facil de entender de los turnos por dia y semana (se podría asignar un color
-diferente para cada doctor así se puede ver mejor de manera rápida.)
-
-3) El sistema debe de enviar recordatorios al paciente, ya sea por Whatsapp o correo electronico, del turno o de cambios que se hayan hecho al mismo. Los recordatorios deben ser 24 horas antes del horario del turno.
-
-4) No se pueden permitir turnos que caigan en vacaciones, feriados o simplemente ocasiones donde el doctor no pueda estar disponible
-por una u otra razón.
-
-5) Poder registrar si el paciente llegó al turno especificando la hora o si aún sigue en la sala de espera, no se debe cancelar el turno
-automáticamente si el paciente todavía no llegó al consultorio, a veces se tienen consideraciones.
+### Requisitos funcionales:
 
 
-Requisitos no funcionales:
 
-1) El sistema debe ser simple de entender y manejar, no debe tener nada complicado, se busca que sea comodo de manejar para todo
-tipo de personas.
-
-2) El sistema debe ser capaz de actualizarse, ya sea para agregar nuevos profesionales o para agregar historias clínicas. En resumen,
-se debe poder modificar y agregar nuevas cosas sin que se modifique el diseño base.
-
-3) El sistema no debe permitir sobreturnos a menos que el profesional a cargo lo habilite, y para este tipo de casos se deberá implementar
-y guardar un historial de cambios.
-
-4) El MVP debe funcionar para principios de julio.
-
-5) El sistema debe ser seguro para que ningún otro usuario más que la secretaria o los doctores puedan modificar algo.
-
+### Requisitos no funcionales:
 
 ---------------------------------
 
 
-Casos de uso.
+## Casos de uso.
 
-Caso 1.
+### Caso 1.
 
 -Nombre del caso de uso: Registro de turno.
 
@@ -72,7 +47,7 @@ Caso 1.
 -Postcondiciones: Se notifica al paciente y al doctor que se registró el turno y este mismo debe aparecer en el calendario, al mismo tiempo que dicho horario del turno tomado ya no debería estar disponible para que otros usuarios puedan escoger.
 
 
-Caso 2.
+### Caso 2.
 
 -Nombre del caso de uso: Reprogramación de turno.
 
@@ -95,7 +70,7 @@ Caso 2.
 registrar este cambios junto con el horario y fecha en que fue realizado en un registro de cambios.
 
 
-Caso 3.
+### Caso 3.
 
 -Nombre de caso de uso: Registro de nuevo profesional.
 
@@ -113,7 +88,7 @@ Caso 3.
       6) El usuario cambia la contraseña y puede seguir con su sesión.
 
 
-Caso 4.
+### Caso 4.
 
 -Nombre de caso de uso: Visualización de calendario.
 
@@ -132,7 +107,7 @@ desea ver los turnos que tiene asignado cada doctor o todos los turnos de todos 
       5) Se muestra cómo quedaría impreso.
 
 
-Caso 5.
+### Caso 5.
 
 -Nombre de caso de uso: Visualización del historial de cambios de turnos.
 
